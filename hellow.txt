@@ -1,2 +1,3 @@
 
-"Hellow, I am learning Git and CI/CD.
+"Hellow, I am learning Git and CI/CD."
+I am learning Git branches.
