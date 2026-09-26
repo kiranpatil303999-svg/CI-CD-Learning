@@ -1,1 +1,14 @@
+name: First CI Workflow
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello Kiran! GitHub Actions is working."
