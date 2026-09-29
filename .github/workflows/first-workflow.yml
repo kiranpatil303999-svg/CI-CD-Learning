@@ -6,11 +6,14 @@ on:
       - main
 
 jobs:
-  first-job:
+  git-job:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Print message
-        run: echo "Hello Kiran! GitHub Actions is working."
-      - name: Second step
-        run: echo "I am learning multiple step"
+      - name: Git message
+        run: echo "I am learning Git."
+
+  github-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub message
+        run: echo "I am learning GitHub Actions."
