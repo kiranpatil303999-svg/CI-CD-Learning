@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: Print message
         run: echo "Hello Kiran! GitHub Actions is working."
+      - name: Second step
+        run: echo "I am learning multiple step"
