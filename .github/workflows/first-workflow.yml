@@ -13,13 +13,8 @@ jobs:
         run: echo "I am learning Git."
 
   github-job:
+    needs: git-job
     runs-on: ubuntu-latest
     steps:
       - name: GitHub message
         run: echo "I am learning GitHub Actions."
-        
-  github-jobss:
-    runs-on: ubuntu-latest
-    steps:
-      - name: GitHub message
-        run: echo " GitHub Actions."
