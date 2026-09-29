@@ -15,6 +15,9 @@ jobs:
       - name: Run shell script
         run: bash hello.sh
 
+      - name: Run shell script
+        run: bash test.sh
+
       - name: List repository files
         run: ls
 
