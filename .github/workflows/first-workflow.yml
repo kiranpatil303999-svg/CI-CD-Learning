@@ -17,7 +17,7 @@ jobs:
 
       - name: Success message
         if: success()
-        run: echo" All test passed successfully"
+        run: echo "All test passed successfully!"
 
       - name: Run shell script
         run: bash test.sh
