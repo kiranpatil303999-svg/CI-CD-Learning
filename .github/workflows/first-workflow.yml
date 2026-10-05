@@ -22,6 +22,10 @@ jobs:
         if: success()
         run: echo "All test passed successfully!"
 
+      - name: Failure message
+        if: failure()
+        run: echo "Something went wrong!"
+
       - name: List repository files
         run: ls
 
