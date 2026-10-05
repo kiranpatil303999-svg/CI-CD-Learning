@@ -22,7 +22,7 @@ jobs:
         if: success()
         run: echo "All test passed successfully!"
 
-      - name: Failure message
+      - name: Failure messages
         if: failure()
         run: echo "Something went wrong!"
 
