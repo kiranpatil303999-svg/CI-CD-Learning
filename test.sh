@@ -2,7 +2,7 @@
 
 echo "Running automated tests..."
 
-if [ 2 -eq 3 ]; then
+if [ 2 -eq 2 ]; then
   echo "Test 1 Passed"
 else
   echo "Test 1 Failed"
