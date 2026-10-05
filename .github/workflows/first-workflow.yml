@@ -15,12 +15,12 @@ jobs:
       - name: Run shell script
         run: bash hello.sh
 
+      - name: Run shell script
+        run: bash test.sh
+
       - name: Success message
         if: success()
         run: echo "All test passed successfully!"
-
-      - name: Run shell script
-        run: bash test.sh
 
       - name: List repository files
         run: ls
