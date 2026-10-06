@@ -39,12 +39,5 @@ jobs:
   github-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Github message
-     run: echo "I am learning Github Actions"
-
-
-
-      
-    steps:
       - name: GitHub message
         run: echo "I am learning GitHub Actions."
