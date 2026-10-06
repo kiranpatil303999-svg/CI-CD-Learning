@@ -37,9 +37,14 @@ jobs:
         run: echo "I am learning Git."
 
   github-job:
-    needs: git-job
-    if: success()
     runs-on: ubuntu-latest
+    steps:
+      - name: Github message
+     run: echo "I am learning Github Actions"
+
+
+
+      
     steps:
       - name: GitHub message
         run: echo "I am learning GitHub Actions."
