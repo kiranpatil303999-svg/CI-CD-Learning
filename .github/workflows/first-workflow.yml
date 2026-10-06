@@ -26,6 +26,10 @@ jobs:
         if: failure()
         run: echo "Something went wrong!"
 
+      - name: Final message
+        if: always()
+        run: echo "Workflow execution completed"
+
       - name: List repository files
         run: ls
 
