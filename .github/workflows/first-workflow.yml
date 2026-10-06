@@ -38,6 +38,7 @@ jobs:
 
   github-job:
     needs: git-job
+    if: success()
     runs-on: ubuntu-latest
     steps:
       - name: GitHub message
