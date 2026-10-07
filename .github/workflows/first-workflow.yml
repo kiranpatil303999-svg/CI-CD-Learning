@@ -23,6 +23,11 @@ jobs:
       - name: Print name
         run: echo "Hellow $name"
 
+      - name: Print City
+        env:
+          CITY: Bengalure
+        run: echo "I am from $CITY"
+
       - name: Success message
         if: success()
         run: echo "All test passed successfully!"
