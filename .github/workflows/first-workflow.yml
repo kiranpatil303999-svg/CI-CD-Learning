@@ -20,6 +20,9 @@ jobs:
       - name: Run shell script
         run: bash test.sh
 
+      - name: Print name
+        run: echo "Hellow $name"
+
       - name: Success message
         if: success()
         run: echo "All test passed successfully!"
@@ -45,8 +48,7 @@ jobs:
       - name: GitHub message
         run: echo "I am learning GitHub Actions."
 
-      - name: Print name
-        run: echo "Hellow $name"
+      
 
 
 
